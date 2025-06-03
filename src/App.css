@@ -1,0 +1,110 @@
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  color: #2a2a2a;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Root layout */
+#root {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* Header logo */
+.logo {
+  height: 4rem;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Cards for projects or sections */
+.card {
+  background: white;
+  color: #2a2a2a; /* ✅ Sets dark text inside the white card */
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card,
+.card * {
+  color: #2a2a2a !important;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 3rem;
+}
+
+/* Footer styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #1f2937;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  gap: 2rem;
+}
+
+.footer a {
+  color: #e5e7eb;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.footer a:hover {
+  color: #60a5fa;
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #2563eb;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  #root {
+    padding: 2rem 1rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ddd;
+}
