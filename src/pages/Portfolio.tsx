@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Legacy League",
-    description: "A website for people to simulate the greatest NBA players of all time.",
+    description: "A website for people to simulate a 1v1 match up between the greatest NBA players of all time.",
     deployedLink: "https://legacy-league.onrender.com/",
     githubLink: "https://github.com/dpanepucci/Legacy-League",
     image: "/Legacy-League.png",
@@ -30,7 +30,7 @@ const projects: Project[] = [
   {
     id: 3,
     title: "ReadMe-Buddy-Bot",
-    description: "A command line application that helps create a README file.",
+    description: "A command line application that helps create a README file with a fully functioning Table of Contents.",
     deployedLink: "https://drive.google.com/file/d/1uJx5wLWyZ4BllPyxUeFvRFkoKHGero7n/view?usp=sharing",
     githubLink: "https://github.com/slvonderheide/ReadMe-Buddy-Bot",
     image: "https://bootcampspot.instructure.com/users/87630/files/3507046/preview?verifier=YPwcm1qJdMzqlTSBgVrBiWQBq1ivjzljDP1e961h",
